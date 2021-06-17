@@ -1,0 +1,1 @@
+alert('assim é bem melhor!')
