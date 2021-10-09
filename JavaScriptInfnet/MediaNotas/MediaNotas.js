@@ -9,4 +9,4 @@ for (i=1; i <= numeronotas; i++) { //(inicio o contador em algum número, declar
     total += parseFloat(nota) //transforma a nota em flutuante e agrega na variável total
     }
 
- document.body.innerHTML = (`A média entre as 4 notas é ${total/numeronotas}`)
+ document.body.innerHTML = (`A média entre as 4 notas é ${total/numeronotas}`) //Imprime mensagem no corpo do html
