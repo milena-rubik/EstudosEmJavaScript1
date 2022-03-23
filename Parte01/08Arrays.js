@@ -4,7 +4,7 @@ minhalista[1] = 6 //altera o valor do elemento de índice 1 para '6'
 minhalista[4] = 'Maria' //crio um novo elemento no array na posição 4,a anterior (3) também não existia, assim foi criada também mas como undefined
 console.log(minhalista) 
 console.log(minhalista.length) //informa o tamhanho, o n° de elementos do vetor
-minhalista[minhalista.length] = 'fome' //adiona o elemento 'fome' na última posição
+minhalista[minhalista.length] = 'fome' //adiciona o elemento 'fome' na última posição
 console.log(minhalista) 
 minhalista.push(true) //adiciona 'true' ao fim da lista
 console.log(minhalista)
