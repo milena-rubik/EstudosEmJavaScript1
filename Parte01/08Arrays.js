@@ -22,3 +22,7 @@ const outralista = ['maça','banana','aveia','mingau']
 outralista.slice(0,-2) //remove os dois últimos elementos do vetor, determina o tamanho do que deve ficar
 console.log(outralista)
 
+//IMPORTANTE!!!!
+// Ao criarmos algo como a = 5 e b = a, por ser primitivo uma cópia do valor de a era armazenada em b. Em arrays por não ser do tipo primitivo, que é imutável, mas do
+//tipo referência, que é mutável, se eu fizer a = [5,6] e b = a, o valor de b irá apontar para a, e não fazer uma cópia, ou seja, se mudo a, automaticamente a mudança
+//é aplicada a B.
