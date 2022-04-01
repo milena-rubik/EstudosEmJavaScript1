@@ -17,3 +17,9 @@ Operadores Lógicos
 || -> or
 ! -> not
 */
+
+//USO INTERESSANTE DO OU:
+const corPadrao = corUsuario || 'preto'; //ao invés de precisar fazer uma estrutura toda de repetição isso ou aquilo, como o OU para no primeiro valor 
+//considerado verdadeiro/valido e retorna esse valor, se o usuário não tivesse escolhido uma cor, ficando nulo o corUsuario, retornaria 'preto'
+console.log(corPadrao)
+
