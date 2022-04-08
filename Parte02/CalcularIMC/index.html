@@ -1,0 +1,67 @@
+<!--Fazer cálculo do IMC e exibir o resultado e o enquadramento do usuário (abaixo do botão calcular)-->
+<!--Incluir tratamento de erro, mostrar peso ou altura invalida ao inves da mensagem final-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cálculo IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">  <!--O ponto indica o caminho relativo, do diretório principal em diante -->
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>índice de Massa Corporal IMC</h1>
+
+    <table border="0" width="100%" cellpadding="10">
+      <tr>
+    
+        <td width="50%" valign="top">
+          <b>IMC<br></b>
+          Menos do que 18,5<br>
+          Entre 18,5 e 24,9<br>
+          Entre 25 e 29,9<br>
+          Entre 30 e 34,9<br>
+          Entre 35 e 39,9<br>
+          Mais do que 40
+
+        </td>
+    
+        <td width="50%" valign="top">
+          <b>RESULTADO<br></b>
+          Abaixo do peso<br>
+          Peso normal<br>
+          Sobrepeso<br>
+          Obesidade grau 1<br>
+          Obesidade grau 2<br>
+          Obesidade grau 3
+          
+        </td>
+
+</tr>
+</table>
+
+
+      <form action="" class="form" method="post">       
+        <label for="altura">Altura</label>
+        <input type="number" step="any" id="altura"> <!--O step any é para permitir decimais-->
+      
+        <label for="peso">Peso</label>
+        <input type="number" step="any" id="peso">
+      
+        <button>Calcular</button>
+
+    </form>
+
+    <div class="resultado"> </div> 
+    
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
