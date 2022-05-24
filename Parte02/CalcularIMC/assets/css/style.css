@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(38, 85, 26);
+  --primary-color-darker: rgb(70, 112, 15);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px; /*deixa as pontas co container mais redondinhas*/
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px; 
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color); /* quando o campo é selecionado deixa a borda dessa cor, ajuda a ver onde o usuário está */
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer; /*muda o cursor quando passa com o mouse no botão*/
+  margin-top: 30px;
+}
+
+form button:hover { /*Altera a cor do botão ao passar com o mouse nele, se quisesse mudar de cor ao selecionar efetivamente, crio mais um form button só que uso active no lugar de hover*/
+  background: var(--primary-color-darker);
+}
