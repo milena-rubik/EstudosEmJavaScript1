@@ -19,3 +19,8 @@ for (let i in doce){  //também percorre o vetor, detalhe que posso dar qualquer
 for (let escolha in bolo) {
     console.log(escolha, bolo[escolha]); //exibe cada item do objeto, ex.: 'recheio dois amores'
 }
+
+//FOR OF
+for (let valor of doce){ //já percorre o array capturando o valor sem precisar mencionar o índice.
+    console.log(valor);  
+}
