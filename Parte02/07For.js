@@ -7,7 +7,7 @@ const bolo = {
 };
 
 //FOR 
-for (let i = 0; i < doce.length; i++){ //percorre todo o array 'doce'
+for (let i = 0; i < doce.length; i++){ //percorre todo o array 'doce': inicialização, condição de execução, incremento a cada volta
     console.log(doce[i]);
 }
 
