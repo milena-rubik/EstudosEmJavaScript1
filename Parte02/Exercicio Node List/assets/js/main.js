@@ -1,4 +1,4 @@
-//Várias coisas dão problema de undifined no VS code mas executa no browsoer
+//Várias coisas dão problema de undifined no VS code mas executa no browser
 
 
 const paragrafos = document.querySelector('.paragrafos'); //acabaria selecionando apenas o primeiro parágrafo se não feito o selectall abaixo
